@@ -4,7 +4,9 @@
 
 > 旧博客存档
 
-## 本地部署指南
+## 部署
+
+安装全局依赖
 
 ```sh
 # 安装最新的 nodejs 长期支持版本
@@ -13,33 +15,39 @@ scoop install nodejs-lts
 npm config set registry https://registry.npmmirror.com
 # 全局安装Hexo，为了能够使用hexo命令。
 npm install hexo-cli -g
-# 初始化Hexo（在blog空目录下执行，作为仓库根目录）
-cd blog
-hexo init
-# 创建网站，npm将会自动安装你需要的组件，只需要等待npm操作即可。
-npm install
-# 局部安装 Git 部署工具
-npm install hexo-deployer-git
-# 局部安装服务器模块
-npm install hexo-server
-# 安装主题
-npm install hexo-theme-fluid
+```
 
+克隆项目，安装项目依赖
+
+```sh
+# 克隆项目
+git clone git@github.com:kisa747/blog-backup.git
+cd blog-backup
+
+# npm 安装需要的组件
+npm install
+```
+
+然后就可以正常预览博客，或是生成静态文件
+
+````sh
 # 本地预览
 start http://localhost:4000
 hexo clean && hexo server
 
 # 生成静态网站文件。生成至 public 文件夹下
 hexo clean && hexo generate
-```
+````
 
 ## 发布
 
 ### 方法一、使用 Github Actions 发布
 
-Github - Pages - Build and deployment - Source 设置为 `Github Actions`
+🚀 推荐使用此方法，简单方便。
 
-🚀 推荐使用此方法，在项目仓库目录下创建 `.github/workflows/pages.yml`，内容参考本仓库该文件
+* 在项目仓库目录下创建 `.github/workflows/pages.yml`，内容参考本仓库该 [文件](https://github.com/kisa747/blog-backup/actions/workflows/pages.yml)
+
+* 然后配置 Github Actions：Github - Pages - Build and deployment - Source 设置为 `Github Actions`
 
 ### 方法二、一键部署
 
