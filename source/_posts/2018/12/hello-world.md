@@ -10,6 +10,6 @@ tags: [python]
 等有时间的话，好好整理一下。
 
 ```python
-# 人生苦短，我用python！
+# 人生苦短，我用 python！
 ```
 

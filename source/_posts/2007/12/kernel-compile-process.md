@@ -36,9 +36,9 @@ sudo aptitude install kernel-package libncurses5-dev
 
 <span style="color: #800000;">make menuconfig</span>
 
-这将显示出内核配置菜单。在下面选择 "Load an Alternate Configuration File"，再选择你刚才拷贝过来的.config文件作为配置文件，然后确定。当结束后，你选择退出时，会提示问你 "Do you wish to save your new kernel configuration?"选择yes即可。
+这将显示出内核配置菜单。在下面选择 "Load an Alternate Configuration File"，再选择你刚才拷贝过来的.config 文件作为配置文件，然后确定。当结束后，你选择退出时，会提示问你 "Do you wish to save your new kernel configuration?"选择 yes 即可。
 
-编译进内核是*号，编译成模块是M号,不编译是空白。
+编译进内核是*号，编译成模块是 M 号，不编译是空白。
 
 里面复杂的内容参照[Linux 2.6.19.x 内核编译配置选项简介](http://lamp.linux.gov.cn/Linux/kernel_options.html)
 
@@ -57,6 +57,6 @@ sudo aptitude install kernel-package libncurses5-dev
 
 <span style="color: #800000;">cd ..</span>
 
-<span style="color: #800000;">sudo dpkg -i linux-image-2.6.22.14</span> (用Tab键补全)
+<span style="color: #800000;">sudo dpkg -i linux-image-2.6.22.14</span> (用 Tab 键补全)
 
-重启就在grub菜单里就看到自己编译的内核的选项。但由于第一次编译内核未能成功，以后有时间多学习希望能编译成功。
+重启就在 grub 菜单里就看到自己编译的内核的选项。但由于第一次编译内核未能成功，以后有时间多学习希望能编译成功。

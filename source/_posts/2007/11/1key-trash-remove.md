@@ -8,7 +8,7 @@ tags: ["windows xp","批处理","技巧分享","系统垃圾"]
 
 单击鼠标右键，选择新建一个"文本文档"，把下面红色部分复制进去，点"<span style="color: #0000ff;">另存为</span>"，"<span style="color: #0000ff;">保存类型</span>"选为"<span style="color: #0000ff;">所有文件</span>"，把文件名定为" <span style="color: #0000ff;">清除系统垃圾.bat</span> "就完成。
 
-记住后缀名一定要是<span style="color: #0000ff;"> bat </span>，然后把它移到一个您想要保存的目录，OK了！
+记住后缀名一定要是<span style="color: #0000ff;"> bat </span>，然后把它移到一个您想要保存的目录，OK 了！
 
 你的垃圾清除器就这样制作成功了！双击它就能很快地清理垃圾文件，大约一分钟不到。
 

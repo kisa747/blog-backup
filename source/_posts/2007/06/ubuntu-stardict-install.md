@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ubuntu下安装星际译王
+title: ubuntu 下安装星际译王
 date: 2007-06-28
 categories: linux
 tags: ["linux","ubuntu","词典"]
@@ -20,7 +20,7 @@ sudo aptitude install stardict-cdict-gb
 
 cdict-gb dictionary(en - zh_CN)  4.5M      57510 words
 
-3,一个命令就是     sudo aptitude install stardict-cdict-gb stardict
+3，一个命令就是     sudo aptitude install stardict-cdict-gb stardict
 
 可以到下面网站查找相应辞典
 [http://stardict.sourceforge.net/Dictionaries_zh_CN.php](http://stardict.sourceforge.net/Dictionaries_zh_CN.php)

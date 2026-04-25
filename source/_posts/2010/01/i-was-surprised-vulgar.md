@@ -7,9 +7,9 @@ tags: ["三言二拍","互联网","低俗","河蟹"]
 
 [![](http://localhost/img/2010/012004.gif)](012004.gif)   
 
-今天我接到电话，要求我删除这篇文章:[刘××，你妈妈喊你回家吃饭](https://dl.dropbox.com/u/3633907/file/call-liu-for-dinner.html)，想不到我混迹江湖这么久，也有今日啊。
+今天我接到电话，要求我删除这篇文章：[刘××，你妈妈喊你回家吃饭](https://dl.dropbox.com/u/3633907/file/call-liu-for-dinner.html)，想不到我混迹江湖这么久，也有今日啊。
 
-我的第一次就这样没了，而且是被OOXX。
+我的第一次就这样没了，而且是被 OOXX。
 
 正如[前一篇文章](http://www.kisa747.com/forced-prostitution.html)所讲的：我们永远不知道哪些词才是敏感的。所以我只能猜测我被低俗了。
 

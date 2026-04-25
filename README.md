@@ -13,7 +13,7 @@
 scoop install nodejs-lts
 # 更换淘宝源
 npm config set registry https://registry.npmmirror.com
-# 全局安装Hexo，为了能够使用hexo命令。
+# 全局安装 Hexo，为了能够使用 hexo 命令。
 npm install hexo-cli -g
 ```
 
@@ -60,7 +60,7 @@ Github - Pages - Build and deployment - Source 设置为 `Deploy from a branch`
 ```yaml
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# username换成自己的用户名和仓库名,去掉括号
+# username 换成自己的用户名和仓库名，去掉括号
 deploy:
     type: git
     repo: git@github.com:*/blog-backup.git

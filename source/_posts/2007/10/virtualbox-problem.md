@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VirtualBox问题
+title: VirtualBox 问题
 date: 2007-10-23
 categories: linux
 tags: ["linux","virtualbox","设置"]
@@ -25,7 +25,7 @@ Interface:
 
 IConsole {1dea5c4b-0753-4193-b909-22330f64ec45}
 
-sudo usermod -G vboxusers -A myname搞不定，/dev/vboxdrv的权限改了不能保存，重启后要重新改。晕哦
+sudo usermod -G vboxusers -A myname 搞不定，/dev/vboxdrv 的权限改了不能保存，重启后要重新改。晕哦
 
 解决的方法：
 <span style="color: #ff0000;"> sudo chmod 777 /dev/vboxdrv</span>

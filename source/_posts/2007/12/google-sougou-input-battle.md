@@ -1,11 +1,11 @@
 ---
 layout: post
-title: google，sougou输入法之争 ─ 只是游戏的开始
+title: google，sougou 输入法之争 ─ 只是游戏的开始
 date: 2007-12-13
 tags: ["google","sougou","三言二拍","腾讯","输入法"]
 ---
 
-"Don't be evil(不做恶)"一直是google的信条，但google进军中国本土化后退化变成了"谷歌"。"谷歌"不等于"google"，我也同意这个观点。在我眼中google一直有着光辉的形象，至今我使用许多google的服务，象gmail邮箱是我的首选邮箱。但google盗用词库事件让她的形象大打折扣，如今连腾讯都已涉足输入法这一领域，网上已经出现了beta版了，所以这场游戏并没有结束，它还只是个开始。
+"Don't be evil(不做恶)"一直是 google 的信条，但 google 进军中国本土化后退化变成了"谷歌"。"谷歌"不等于"google"，我也同意这个观点。在我眼中 google 一直有着光辉的形象，至今我使用许多 google 的服务，象 gmail 邮箱是我的首选邮箱。但 google 盗用词库事件让她的形象大打折扣，如今连腾讯都已涉足输入法这一领域，网上已经出现了 beta 版了，所以这场游戏并没有结束，它还只是个开始。
 
 <!--more-->
 

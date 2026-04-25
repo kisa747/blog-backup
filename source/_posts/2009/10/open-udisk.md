@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 打开U盘的代码
+title: 打开 U 盘的代码
 date: 2009-10-09
-tags: ["u盘","windows xp","代码","技巧分享","病毒"]
+tags: ["u 盘","windows xp","代码","技巧分享","病毒"]
 ---
 
 <!--more-->
@@ -88,12 +88,12 @@ rem ++++++++++++++++++++++++++++
 rem 附上隐藏指定驱动器的方法：
 rem ++++++++++++++++++++++++++++
 rem "开始"→"运行"→输入"regedit"，打开注册表，
-rem 找到以下键值HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer，
+rem 找到以下键值 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer，
 rem 在右侧窗口新建二进制值"NoDrives"，对应键值：
 rem A：01000000 B：02000000 C：04000000 D：08000000
 rem E：10000000 F：20000000 G：40000000 H：80000000
 rem I：00010000 J：00020000 K：00040000 L：00080000
-rem 当要阻止两个以上盘时，将该数据相加即可，如阻止H、I盘，数值为 80010000 。
+rem 当要阻止两个以上盘时，将该数据相加即可，如阻止 H、I 盘，数值为 80010000。
 rem 可以使用以下的批处理命令来实现
 rem reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDrives /t REG_BINARY /d 80010000 /f
 rem 如果要恢复显示盘符，运行下面命令：

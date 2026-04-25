@@ -87,7 +87,7 @@ theme: fluid  # [next | fluid]
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# username换成自己的用户名和仓库名,去掉括号
+# username 换成自己的用户名和仓库名，去掉括号
 deploy:
     type: git
     repo: git@github.com:kisa747/blog-backup.git

@@ -13,12 +13,12 @@ tags: [hexo]
 scoop install nodejs-lts
 # 持久使用淘宝源
 npm config set registry https://registry.npmmirror.com
-# 全局安装Hexo，为了能够使用hexo命令。
+# 全局安装 Hexo，为了能够使用 hexo 命令。
 npm install hexo-cli -g
-# 初始化Hexo（在blog空目录下执行，作为仓库根目录）
+# 初始化 Hexo（在 blog 空目录下执行，作为仓库根目录）
 cd blog
 hexo init
-# 创建网站，npm将会自动安装你需要的组件，只需要等待npm操作即可。
+# 创建网站，npm 将会自动安装你需要的组件，只需要等待 npm 操作即可。
 npm install
 # 局部安装 Git 部署工具
 npm install hexo-deployer-git
@@ -54,7 +54,7 @@ Github - Pages - Build and deployment - Source 设置为 `Deploy from a branch`
 ```yaml
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# username换成自己的用户名和仓库名,去掉括号
+# username 换成自己的用户名和仓库名，去掉括号
 deploy:
     type: git
     repo: git@github.com:**/**.git

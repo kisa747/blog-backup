@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的Fcitx美化方案
+title: 我的 Fcitx 美化方案
 date: 2007-12-12
 tags: ["fcitx","linux","美化","输入法"]
 ---
@@ -11,7 +11,7 @@ tags: ["fcitx","linux","美化","输入法"]
 
 <!--more-->
 
-我是在在终端中输入命令修改配置文件实现的:
+我是在在终端中输入命令修改配置文件实现的：
 
 <span style="color: #800000;">
 gedit </span><span style="color: #800000;">~/.fcitx/</span><span style="color: #800000;">config
@@ -20,17 +20,17 @@ gedit </span><span style="color: #800000;">~/.fcitx/</span><span style="color: #
 我的配置文件如下：
 
 <span style="color: #0000ff;">[程序]
-显示字体(中)=*
-显示字体(英)=DejaVu Sans
+显示字体 (中)=*
+显示字体 (英)=DejaVu Sans
 显示字体大小=17
 主窗口字体大小=11
 字体区域=zh_CN.UTF-8
-是否使用AA字体=1
+是否使用 AA 字体=1
 是否使用粗体=1</span>
 
 <span style="color: #0000ff;">[输出]
 数字后跟半角符号=1
-Enter键行为=2
+Enter 键行为=2
 分号键行为=2
 大写字母输入英文=1
 转换英文中的标点=1
@@ -38,17 +38,17 @@ Enter键行为=2
 
 <span style="color: #0000ff;">[界面]
 候选词个数=9
-主窗口是否使用3D界面=0
-输入条使用3D界面=1
+主窗口是否使用 3D 界面=0
+输入条使用 3D 界面=1
 主窗口隐藏模式=1
 显示虚拟键盘=0
 是否自动隐藏输入条=1
 输入条是否居中=0
 首次显示输入条=0
-#输入条固定宽度(仅适用于码表输入法)，0表示不固定宽度
+#输入条固定宽度 (仅适用于码表输入法)，0 表示不固定宽度
 输入条固定宽度=0
-输入条偏移量X=0
-输入条偏移量Y=12
+输入条偏移量 X=0
+输入条偏移量 Y=12
 序号后加点=1
 显示打字速度=1
 显示版本=1
@@ -75,13 +75,13 @@ Enter键行为=2
 <span style="color: #0000ff;">#除了"中英文快速切换键"外，其它的热键均可设置为两个，中间用空格分隔
 [热键]
 打开/关闭输入法=CTRL_SPACE
-#中英文快速切换键 可以设置为L_CTRL R_CTRL L_SHIFT R_SHIFT
+#中英文快速切换键 可以设置为 L_CTRL R_CTRL L_SHIFT R_SHIFT
 中英文快速切换键=L_CTRL
 双击中英文切换=0
 击键时间间隔=250
 光标跟随=CTRL_K
-GBK支持=CTRL_M
-GBK繁体切换键=CTRL_ALT_F
+GBK 支持=CTRL_M
+GBK 繁体切换键=CTRL_ALT_F
 联想支持=CTRL_L
 反查拼音=CTRL_ALT_E
 全半角=SHIFT_SPACE
@@ -111,18 +111,18 @@ GBK繁体切换键=CTRL_ALT_F
 拼音单字重码调整方式=2
 拼音词组重码调整方式=1
 拼音常用词重码调整方式=0
-是否模糊an和ang=0
-是否模糊en和eng=0
-是否模糊ian和iang=0
-是否模糊in和ing=0
-是否模糊ou和u=0
-是否模糊uan和uang=0
-是否模糊c和ch=0
-是否模糊f和h=0
-是否模糊l和n=0
-是否模糊s和sh=0
-是否模糊z和zh=0</span>
+是否模糊 an 和 ang=0
+是否模糊 en 和 eng=0
+是否模糊 ian 和 iang=0
+是否模糊 in 和 ing=0
+是否模糊 ou 和 u=0
+是否模糊 uan 和 uang=0
+是否模糊 c 和 ch=0
+是否模糊 f 和 h=0
+是否模糊 l 和 n=0
+是否模糊 s 和 sh=0
+是否模糊 z 和 zh=0</span>
 
 <span style="color: #0000ff;"> </span>
 
-保存后按在fcitx打开的状态下ctrl+5重新读取配置文件再重新启动fcitx即可。
+保存后按在 fcitx 打开的状态下 ctrl+5 重新读取配置文件再重新启动 fcitx 即可。

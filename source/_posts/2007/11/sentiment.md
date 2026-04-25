@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 感悟!
+title: 感悟！
 date: 2007-11-06
 tags: ["心情随笔","感悟","杂乱"]
 ---

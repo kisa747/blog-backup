@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Mini Pagenavi强力修改版
+title: Mini Pagenavi 强力修改版
 date: 2010-07-22
 tags: ["wordpress","wordpress","插件","翻页"]
 ---
 
-看了willin大师的 [Mini pagenavi](http://kan.willin.org/?p=1323) 代码后，有种醍醐灌顶的感觉，惊叹原来代码可以写的这么简单，不仅实现同样的功能，而且要代码清晰易懂。仔细地研究了一番后，决定替换掉原来使用的代码。不过我比较喜欢分页显示固定的页数，于是决定进行强力修改。
+看了 willin 大师的 [Mini pagenavi](http://kan.willin.org/?p=1323) 代码后，有种醍醐灌顶的感觉，惊叹原来代码可以写的这么简单，不仅实现同样的功能，而且要代码清晰易懂。仔细地研究了一番后，决定替换掉原来使用的代码。不过我比较喜欢分页显示固定的页数，于是决定进行强力修改。
 
 修改后效果参看本站，其实跟之前代码实现的效果是一样一样的。
 
@@ -44,9 +44,9 @@ if($paged != $max_page){echo "<a href='" . get_pagenum_link($max_page) . "'>最�
 <div id="pagenavi"><?php pagenavi(4); ?></div>
 ```
 
-括号中的参数4，即固定显示2×4=1=9项的分页。
+括号中的参数 4，即固定显示 2×4=1=9 项的分页。
 
-CSS部分参考我的CSS样式：
+CSS 部分参考我的 CSS 样式：
 
 ```php
 /*分页样式*/
