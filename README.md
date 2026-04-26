@@ -2,7 +2,7 @@
 
 [![Pages](https://github.com/kisa747/blog-backup/actions/workflows/pages.yml/badge.svg)](https://github.com/kisa747/blog-backup/actions/workflows/pages.yml)
 
-> 旧博客存档
+> 旧博客存档，采用 Hexo 构建
 
 ## 部署
 
@@ -38,6 +38,20 @@ hexo clean && hexo server
 # 生成静态网站文件。生成至 public 文件夹下
 hexo clean && hexo generate
 ````
+
+更新依赖包
+
+```sh
+# 安装 ncu 命令
+npm install -g npm-check-updates
+
+# 检查工作区更新
+ncu
+# 更新 package.json
+ncu -u
+# 根据 package.json 更新依赖项
+npm install
+```
 
 ## 发布
 
