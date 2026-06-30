@@ -24,7 +24,7 @@ jobs:
           cache: 'npm'  # 缓存地址 ~/.npm
           cache-dependency-path: '**/package.json'
       - name: Cache node_modules
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: node_modules
           key: ${{ runner.OS }}-node-node_modules-cache-${{ hashFiles('**/package.json') }}
