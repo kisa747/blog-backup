@@ -21,8 +21,8 @@ npm install hexo-cli -g
 
 ```sh
 # 克隆项目
-git clone git@github.com:kisa747/blog-backup.git
-cd blog-backup
+git clone <repo>
+cd blog
 
 # npm 安装需要的组件
 npm install
@@ -30,14 +30,14 @@ npm install
 
 然后就可以正常预览博客，或是生成静态文件
 
-````sh
+```sh
 # 本地预览
 start http://localhost:4000
 hexo clean && hexo server
 
 # 生成静态网站文件。生成至 public 文件夹下
 hexo clean && hexo generate
-````
+```
 
 更新依赖包
 
@@ -77,7 +77,7 @@ Github - Pages - Build and deployment - Source 设置为 `Deploy from a branch`
 # username 换成自己的用户名和仓库名，去掉括号
 deploy:
     type: git
-    repo: git@github.com:*/blog-backup.git
+    repo: git@github.com:*/blog.git
     branch: gh-pages
 ```
 
