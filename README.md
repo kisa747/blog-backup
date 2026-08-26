@@ -1,6 +1,6 @@
 # 说明文档
 
-[![Pages](https://github.com/kisa747/blog-backup/actions/workflows/pages.yml/badge.svg)](https://github.com/kisa747/blog-backup/actions/workflows/pages.yml)
+[![Pages](https://github.com/kisa747/blog/actions/workflows/pages.yml/badge.svg)](https://github.com/kisa747/blog/actions/workflows/pages.yml)
 
 > 旧博客存档，采用 Hexo 构建
 
@@ -59,35 +59,10 @@ npm install
 
 🚀 推荐使用此方法，简单方便。
 
-* 在项目仓库目录下创建 `.github/workflows/pages.yml`，内容参考本仓库该 [文件](https://github.com/kisa747/blog-backup/actions/workflows/pages.yml)
+* 在项目仓库目录下创建 `.github/workflows/pages.yml`，内容参考本仓库该 [文件](https://github.com/kisa747/blog/actions/workflows/pages.yml)
 
 * 然后配置 Github Actions：Github - Pages - Build and deployment - Source 设置为 `Github Actions`
 
-### 方法二、一键部署
-
-Github - Pages - Build and deployment - Source 设置为 `Deploy from a branch`
-
-本地生成静态网址文件，然后推送至指定仓库。
-
-首先配置仓库信息，编辑 `_config.yml` 
-
-```yaml
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# username 换成自己的用户名和仓库名，去掉括号
-deploy:
-    type: git
-    repo: git@github.com:*/blog.git
-    branch: gh-pages
-```
-
-然后一键发布
-
-```sh
-# 生成静态网站文件并发布至指定仓库
-hexo clean && hexo deploy --generate
-```
-
-### 方法三、手动发布
+### 方法二、手动发布
 
 手动将 `public` 目录下文件推送至仓库，或是拷贝至服务器。

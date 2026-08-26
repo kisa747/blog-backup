@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.kisa747.top
+url: https://blog.kisa747.top
 root: /
 permalink: :title/
 permalink_defaults:
@@ -84,11 +84,3 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: fluid  # [next | fluid]
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# username 换成自己的用户名和仓库名，去掉括号
-deploy:
-    type: git
-    repo: git@github.com:kisa747/blog-backup.git
-    branch: gh-pages
